@@ -3,7 +3,7 @@ import google.generativeai as genai
 
 # Conectamos con la IA usando tu llave secreta
 genai.configure(api_key=os.environ["GEMINI_API_KEY"])
-model = genai.GenerativeModel('gemini-3.8-flash')
+model = genai.GenerativeModel('gemini-1.5-flash')
 
 # Le damos la instrucción de actuar como un experto en cultura pop
 prompt = """
